@@ -21,6 +21,5 @@ const elements = images
     <img src="${image.url}" alt="${image.alt}" class="gallery__image">
     </li>`
   ).join(" ");
-  console.log(elements)
 
 listEl.insertAdjacentHTML("beforeend", elements);

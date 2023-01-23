@@ -23,25 +23,22 @@ button {
   cursor: pointer;
 }
 
-
 .gallery {
   display: flex;
   justify-content: center;
-  gap: 15px; 
+  gap: 15px;
+  padding: 0;
 }
 
-.gallery__item{
+.gallery__item {
+  width: 400px;
   display: flex;
-   list-style: none;
-   border-radius: 30px;
-   overflow: hidden;
-  }
+  list-style: none;
+  border-radius: 30px;
+  overflow: hidden;
+}
 
 .gallery__image {
-width: 650px;
-display: block;
-height: auto;
+  width: 100%;
+  height: auto;
 }
- 
-
-
